@@ -1,0 +1,1 @@
+Calitate si Testare Software 202-2025
