@@ -4,6 +4,8 @@ import java.io.Serializable;
 
 public class Singleton implements Serializable {
     private static Singleton instance;
+
+    //SingletonData
     private String state = "stare 0";
 
     private Singleton() {
@@ -17,6 +19,7 @@ public class Singleton implements Serializable {
         return instance;
     }
 
+    //Singleton Methods+Operations on SingletonData
     public String getState() {
         return this.state;
     }

@@ -8,7 +8,7 @@ public class Program {
 		s1=SingletonEager.getInstance();
 		s2=SingletonEager.getInstance();
 		if(s1==s2)
-			System.out.println("Instante identice");
+			System.out.println("Instante identice eager");
 		else
 			System.out.println("Instantele nu sunt identice");
 

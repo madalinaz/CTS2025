@@ -14,4 +14,5 @@ public class SingletonLazy {
         return instance;
     }
 
+    //singleton Methods+Operations
 }

@@ -29,7 +29,7 @@ public class Program {
 
             //verificare instante unice
             if(s1==s2)
-                System.out.println("Instante identice");
+                System.out.println("Instante identice dupa serializare");
             else
                 System.out.println("Instantele nu sunt identice");
 

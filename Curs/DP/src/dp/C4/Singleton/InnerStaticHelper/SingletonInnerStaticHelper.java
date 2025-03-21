@@ -1,6 +1,8 @@
 package dp.C4.Singleton.InnerStaticHelper;
 
 public class SingletonInnerStaticHelper {
+
+    //SingletonData
     private SingletonInnerStaticHelper() {
     }
 

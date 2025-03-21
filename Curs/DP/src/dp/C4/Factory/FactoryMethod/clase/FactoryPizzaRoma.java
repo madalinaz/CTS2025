@@ -1,4 +1,4 @@
-package dp.C4.Factory.FactoryMethod;
+package dp.C4.Factory.FactoryMethod.clase;
 
 public class FactoryPizzaRoma implements IFactory{
 

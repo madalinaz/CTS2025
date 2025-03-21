@@ -22,7 +22,7 @@ public class Program {
             //deserializare
             Singleton s2 = (Singleton) ois.readObject();
 
-            //verificare stare obj
+            //verificare stare obj (verific SingletonData)
             if(s1.getState().equals(s2.getState()))
                 System.out.println("Aceeasi informatie in stare");
 
