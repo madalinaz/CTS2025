@@ -1,6 +1,7 @@
 package dp.C5.builder.v1.clase;
 
 public class PetrecereBuilder implements IBuilder{
+	//obj pe care il construieste
 	private Petrecere petrecere;
 	
 	//aici se trimite zona obligatorie
