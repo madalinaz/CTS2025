@@ -1,7 +1,7 @@
 package s5.program;
 
-import S5.clase.Masa;
-import S5.clase.Restaurant;
+import s5.clase.Masa;
+import s5.clase.Restaurant;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
