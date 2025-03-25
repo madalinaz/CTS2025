@@ -1,4 +1,4 @@
-package S5.program;
+package s5.program;
 
 import S5.clase.Masa;
 import S5.clase.Restaurant;

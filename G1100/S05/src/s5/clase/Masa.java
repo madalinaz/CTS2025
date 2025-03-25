@@ -1,4 +1,4 @@
-package S5.clase;
+package s5.clase;
 
 public class Masa {
     private int id;

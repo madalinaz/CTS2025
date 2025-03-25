@@ -1,4 +1,4 @@
-package S5.clase;
+package s5.clase;
 
 import java.util.ArrayList;
 import java.util.List;
