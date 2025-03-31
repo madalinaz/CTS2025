@@ -16,7 +16,7 @@ public class Program {
 		System.out.println(contractCorporate2);
 		
 		
-		//cu prototype
+		//cu prototype factory
 		AContract contractParty1 = PrototypeFactory
 				.getPrototipContract("party");
 		if(contractParty1 != null) {
