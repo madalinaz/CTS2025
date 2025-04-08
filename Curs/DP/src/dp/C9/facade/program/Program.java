@@ -1,4 +1,6 @@
-package DP.Structurale.Facade;
+package dp.C9.facade.program;
+
+import dp.C9.facade.clase.Facade;
 
 public class Program {
 

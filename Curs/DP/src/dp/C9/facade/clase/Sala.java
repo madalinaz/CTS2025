@@ -1,4 +1,4 @@
-package DP.Structurale.Facade;
+package dp.C9.facade.clase;
 
 public class Sala {
 	private String denumire;
