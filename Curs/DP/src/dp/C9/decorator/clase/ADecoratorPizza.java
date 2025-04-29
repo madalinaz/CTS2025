@@ -8,6 +8,7 @@ public abstract class ADecoratorPizza extends APizza{
 		this.pizza = pizza;
 	}
 
+
 	@Override
 	public String getComponente() {
 		return pizza.getComponente();

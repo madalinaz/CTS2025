@@ -14,6 +14,7 @@ public class Program {
 		
 		//folosind decorator
 		APizza pizzaDecorata = new DecoratorCrown(pizza);
+		//APizza pizzaDecorata2 = new DecoratorCrown(new PizzaVegetariana());
 		System.out.println(pizzaDecorata.getComponente());
 		System.out.println(pizzaDecorata.getPret());
 
