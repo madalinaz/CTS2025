@@ -11,7 +11,8 @@ public class Program {
 	public static void main(String[] args) {
 		AHandler ospatar = new Ospatar();
 		AHandler bucatar = new Bucatar();
-		
+
+		//setare lant de responsabili
 		ospatar.setNextHandler(bucatar);
 		
 		Comanda comanda1 = new Comanda("Pizza", 2, 15);
@@ -25,7 +26,7 @@ public class Program {
 		ospatar.procesareComanda(comanda2);
 		
 		System.out.println("\nCOMANDA 3");
-		ospatar.procesareComanda(comanda3);
+		bucatar.procesareComanda(comanda3);
 
 	}
 

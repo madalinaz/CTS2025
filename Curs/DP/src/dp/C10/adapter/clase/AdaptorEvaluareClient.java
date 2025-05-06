@@ -10,7 +10,7 @@ public class AdaptorEvaluareClient extends EvaluareClientFirmaA implements IEval
 
 	@Override
 	public void analizaClientFirmaB(Client client) {
-		System.out.println("Metoda analiza client Firma B");
+		System.out.println("Arata ca si cum Firma B face analiza....");
 		this.analizaClientFirmaA(costTotalEvenimente(client));
 		
 	}
