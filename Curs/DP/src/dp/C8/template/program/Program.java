@@ -11,7 +11,6 @@ public class Program {
 				new EvaluareDauneBucatarie();
 		System.out.println("Procedura evaluare daune");
 		evaluareDauneBucatarie.proceduraEvaluareDaune();
-
 	}
 
 }

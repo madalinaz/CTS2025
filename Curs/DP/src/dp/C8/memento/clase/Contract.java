@@ -1,6 +1,6 @@
 package dp.C8.memento.clase;
 
-
+//clasa Originator din diagrama GoF
 public class Contract {
 	private String clauzeContractuale;
 	private String numeClient;
@@ -19,12 +19,14 @@ public class Contract {
 		return "Contract [clauzeContractuale=" + clauzeContractuale
 				+ ", numeClient=" + numeClient + "]";
 	}
-	
-	public void refacereVersiuneContractAnterior(VersiuneContract versiuneContract){
+
+	//reface obj this in functie de un Memento primit ca param
+	public void restoreFromMemento(VersiuneContract versiuneContract){
 		this.clauzeContractuale = versiuneContract.getClauzeContractuale();
 	}
-	
-	public VersiuneContract salvare(){
+
+	//salvare stare curenta intr-un Memento
+	public VersiuneContract saveToMemento(){
 		System.out.println("Salvare versiune contract");
 		return new VersiuneContract(clauzeContractuale);
 	}
