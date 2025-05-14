@@ -1,4 +1,4 @@
-package week4_SingletonRegistry.clase;
+package S04_SingletonRegistry.clase;
 
 import java.util.*;
 
@@ -22,7 +22,7 @@ public class Oven {
 
     static {
         // Simulare citire din fisier
-        int[] gradesFromFile = new int[] {100, 433, 212, 331};
+        int[] gradesFromFile = new int[] { 100, 433, 212, 331 };
 
         for (int i = 0; i < 4; i++) {
             Oven oven = new Oven(gradesFromFile[i]);
@@ -46,7 +46,7 @@ public class Oven {
         return totalWaitingTime;
     }
 
-    public static void addDish(Dish dish) throws RuntimeException{
+    public static void addDish(Dish dish) throws RuntimeException {
         PriorityQueue<Oven> ovensPQ = new PriorityQueue<>(Comparator.comparingInt(Oven::calculateOvenWaitingTime));
 
         ovensPQ.addAll(registry.values());

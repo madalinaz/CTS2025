@@ -1,7 +1,7 @@
-package week4_SingletonRegistry.program;
+package S04_SingletonRegistry.program;
 
-import week4_SingletonRegistry.clase.Dish;
-import week4_SingletonRegistry.clase.Oven;
+import S04_SingletonRegistry.clase.Dish;
+import S04_SingletonRegistry.clase.Oven;
 
 public class Main {
     public static void main(String[] args) {
@@ -16,7 +16,6 @@ public class Main {
         Dish pie = new Dish("Pie", 20, 200);
         Dish tart = new Dish("Tart", 35, 160);
         Dish steak = new Dish("Steak", 50, 450);
-
 
         System.out.println("\n=========== ADDING DISHES ===========");
         try {
