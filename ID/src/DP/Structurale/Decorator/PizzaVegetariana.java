@@ -1,5 +1,6 @@
 package DP.Structurale.Decorator;
 
+//clasa ProdusConcret din diagrama
 public class PizzaVegetariana extends APizza{
 
 	@Override

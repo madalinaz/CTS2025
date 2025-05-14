@@ -1,4 +1,4 @@
-package DP.Structurale.Adapter;
+package DP.Structurale.Adapter.RestaurantA;
 
 public class EvaluareClientFirmaA implements IEvaluareClientFirmaA{
 	@Override
@@ -12,7 +12,7 @@ public class EvaluareClientFirmaA implements IEvaluareClientFirmaA{
 			if(costTotalEvenimente >500)
 				procentDiscount = 0.05;
 			else procentDiscount = 0.00;
-		System.out.println("S-a oferit un discount de "+ 
+		System.out.println("S-a oferit un discount de " +
 			procentDiscount);
 	}
 }

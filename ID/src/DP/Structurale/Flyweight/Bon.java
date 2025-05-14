@@ -1,5 +1,6 @@
 package DP.Structurale.Flyweight;
 
+//zona ne-partajabila, zona unshared, zona extrinseca
 public class Bon{
 	private int nrMasa;
 	private float costTotal;

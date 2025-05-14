@@ -1,4 +1,4 @@
-package DP.Structurale.Adapter;
+package DP.Structurale.Adapter.RestaurantB;
 
 public class Client {
 	private String numeClient;

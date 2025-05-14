@@ -9,6 +9,10 @@ public class Program {
 		System.out.println("Procedura evaluare daune");
 		evaluareDauneBucatarie.proceduraEvaluareDaune();
 
+		AEvaluareDaune evaluareDauneSalaMese= new EvaluareDauneSalaMese();
+
+		System.out.println("Procedura evaluare daune");
+		evaluareDauneSalaMese.proceduraEvaluareDaune();
 	}
 
 }

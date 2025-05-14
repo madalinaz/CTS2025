@@ -1,4 +1,4 @@
-package DP.Comportamentale.ChainOfResponsability;
+package DP.Comportamentale.ChainOfResponsability.Restaurant;
 
 public abstract class AHandler {
 	private AHandler nextHandler;

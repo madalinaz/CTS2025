@@ -1,5 +1,6 @@
 package DP.Structurale.Decorator;
 
+//alta clasa de tip Decorator concret din diagrama
 public class DecoratorPicant extends ADecoratorPizza{
 	private int nivelIuteala;
 	

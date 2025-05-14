@@ -1,4 +1,4 @@
-package DP.Comportamentale.ChainOfResponsability;
+package DP.Comportamentale.ChainOfResponsability.Restaurant;
 
 public class Ospatar extends AHandler{
 	@Override

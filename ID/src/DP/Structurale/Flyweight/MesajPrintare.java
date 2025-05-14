@@ -1,5 +1,6 @@
 package DP.Structurale.Flyweight;
 
+//clasa concrete flyweight din diagrama
 public class MesajPrintare implements IPrintare{
 	private ETipPrintare tipPrintare;
 	private String mesajPrintare;
@@ -13,6 +14,7 @@ public class MesajPrintare implements IPrintare{
 		return tipPrintare;
 	}
 
+	//meth aceasta reuneste cele 2 zone ale obiectului (zona shared de zona unshared)
 	@Override
 	public void printareBon(Bon bon) {
 		System.out.println("Pentru printare s-a folosit formatul: "
