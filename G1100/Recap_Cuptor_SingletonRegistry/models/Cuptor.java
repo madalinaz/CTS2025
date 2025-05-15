@@ -1,4 +1,4 @@
-package Creationale.X_Practice.ovenLazy.models;
+package Recap_Cuptor_SingletonRegistry.models;
 
 import java.util.ArrayList;
 import java.util.List;

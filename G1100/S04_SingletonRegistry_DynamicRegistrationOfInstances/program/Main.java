@@ -1,7 +1,7 @@
-package week4_SingletonRegistryLazy.program;
+package S04_SingletonRegistry_DynamicRegistrationOfInstances.program;
 
-import week4_SingletonRegistryLazy.clase.Dish;
-import week4_SingletonRegistryLazy.clase.Oven;
+import S04_SingletonRegistry_DynamicRegistrationOfInstances.clase.Dish;
+import S04_SingletonRegistry_DynamicRegistrationOfInstances.clase.Oven;
 
 public class Main {
     private static void tryAddDish(Dish dish) {

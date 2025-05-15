@@ -1,4 +1,4 @@
-package week4_SingletonRegistryLazy.clase;
+package S04_SingletonRegistry_DynamicRegistrationOfInstances.clase;
 
 import java.util.*;
 
@@ -42,7 +42,7 @@ public class Oven {
         return totalWaitingTime;
     }
 
-    public static void addDish(Dish dish) throws RuntimeException{
+    public static void addDish(Dish dish) throws RuntimeException {
         PriorityQueue<Oven> ovensPQ = new PriorityQueue<>(Comparator.comparingInt(Oven::calculateOvenWaitingTime));
 
         ovensPQ.addAll(registry.values());

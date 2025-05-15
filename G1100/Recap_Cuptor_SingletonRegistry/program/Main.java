@@ -1,6 +1,6 @@
-package Creationale.X_Practice.ovenLazy.program;
+package Recap_Cuptor_SingletonRegistry.program;
 
-import Creationale.X_Practice.ovenLazy.models.Cuptor;
+import Recap_Cuptor_SingletonRegistry.models.Cuptor;
 
 public class Main {
     public static void main(String[] args) {

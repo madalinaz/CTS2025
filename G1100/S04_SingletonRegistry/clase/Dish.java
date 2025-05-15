@@ -1,4 +1,4 @@
-package week4_SingletonRegistry.clase;
+package S04_SingletonRegistry.clase;
 
 public class Dish {
     private String name;
