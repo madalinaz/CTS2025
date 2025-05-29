@@ -1,0 +1,10 @@
+Clasa gestionează un catalog de produse, iar metoda filtreazaProduseCuPret primește: O listă de produse,
+un preț minim și un preț maxim.
+Metoda trebuie să returneze o listă cu toate produsele care au prețul în acel interval, inclusiv capetele.
+
+Reguli de implementare:
+1. Dacă lista de produse este null, se aruncă ListaProduseNullException.
+2. Dacă lista este goală, se aruncă ListaProduseGoalaException.
+3. Dacă pretMin > pretMax, se aruncă IntervalInvalidException.
+4. Se returnează lista produselor care au prețul între pretMin și pretMax (inclusiv).
+5. Dacă niciun produs nu se încadrează, se returnează o listă goală (nu excepție).
