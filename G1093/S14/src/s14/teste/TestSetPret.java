@@ -42,7 +42,7 @@ public class TestSetPret {
     }
 
     @Category(TestFoarteLent.class)
-    @Test
+    @Test(timeout=100)
     public void testPerformance() throws ExceptiePret {
         long pragMaxim=2;
         long start = Time.from(Instant.now()).getTime();
@@ -56,5 +56,20 @@ public class TestSetPret {
         System.out.println(start2 + " " + stop2);
 
         assertTrue((stop2-start2)<=pragMaxim);
+    }
+
+    @Test(timeout=3)
+    public void testPerformance2() throws ExceptiePret {
+        long start2 = System.currentTimeMillis();
+        long start3 = System.nanoTime();
+        for(int i = 0; i < 1000000; i++) {
+            masina.setPret(5000);
+        }
+        long stop2 = System.currentTimeMillis();
+        long stop3 = System.nanoTime();
+        System.out.println(start2 + " " + stop2);
+        System.out.println(stop2-start2);
+        System.out.println(start3 + " " + stop3);
+        System.out.println((stop3-start3)/1_000_000);
     }
 }
