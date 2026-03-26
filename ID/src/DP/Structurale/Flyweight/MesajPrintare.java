@@ -4,7 +4,8 @@ package DP.Structurale.Flyweight;
 public class MesajPrintare implements IPrintare{
 	private ETipPrintare tipPrintare;
 	private String mesajPrintare;
-	
+
+	//recomandare, constructor sa fie default visibility, packet
 	public MesajPrintare(ETipPrintare tipPrintare) {
 		this.tipPrintare=tipPrintare;
 		System.out.println("S-a creat obj cu printare: " + this.tipPrintare);

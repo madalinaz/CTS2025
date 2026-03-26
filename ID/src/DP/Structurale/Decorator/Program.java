@@ -20,6 +20,10 @@ public class Program {
 						(new PizzaVegetariana()), 10);
 		System.out.println(pizzaDecorataMultiplu.getComponente());
 		System.out.println(pizzaDecorataMultiplu.getPret());
+
+		//TO DO
+		//1. De implementat astfel incat sa nu se permita anumite decorari multiple dupa niste reguli furnizate de voi (Nu permite decorare Crown peste o alta decorare Crown)
+
 	}
 
 }

@@ -1,14 +1,15 @@
 package DP.Structurale.Composite.ex1;
 
 public class Produs extends ANod{
-	
-	String denumire;
-	int pret;
+	//clasa Nod Frunza
+	private String denumire;
+	private int pret;
 	
 	public Produs(String denumire, int pret){
 		this.denumire = denumire;
 		this.pret = pret;
 	}
+
 	@Override
 	public String getDenumire() {
 		return this.denumire;

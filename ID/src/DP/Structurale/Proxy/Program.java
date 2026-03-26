@@ -21,6 +21,12 @@ public class Program {
 		IPetrecere petrecereProxy = new PetrecereProxy(petrecere);
 		petrecereProxy.adaugaParticipant(cl3);
 		petrecereProxy.adaugaParticipant(cl4);
+
+		//TO DO
+		//1. Lista de asteptare. La o pestera, se permite accesul doar atunci cand se strang 5 persoane la rand. Apoi, vine un responsabil si ghideaza cele 5 persoane.
+		//Astfel, nu trebuie un ghid pentru fiecare 1 persoana care plateste bilet si asteapta sa intre in pestera.
+
+		//2. Intr-un spital, un vizitator era acceptat doar in intervalul orar 18:00-20:00. Odata cu inmultirea cazurilor de boli...., s-a restrictionat accesul in spital a doar 1 vizitator per pacient per zi.
 	}
 
 }

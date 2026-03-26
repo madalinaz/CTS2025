@@ -4,7 +4,7 @@ package DP.Structurale.Composite.ex1;
 public class Program {
 
 	public static void main(String[] args) {
-		//definire nivel 0 arborescenta
+				//definire nivel 0 arborescenta
 				Structura structuraMeniu = new Structura("Meniu restaurant");
 				
 				Meniu meniu = new Meniu(structuraMeniu, "Pizzeria ASE");
@@ -37,6 +37,12 @@ public class Program {
 				System.out.println(meniu.getNumeRestaurant());
 				System.out.println(structuraMeniu.getInfo());
 
+		//TO DO
+		//1. De refacut implementarea astfel incat sa indeplinim Interface Segregation
+		//2. De modificat getInfo() astfel incat sa afiseze cu tab-uri corespunzatoare ierarhia definita de Composite
+		//3. ex2 => existenta unui vapor/container => containere mai mici => colete/structuri => nodul frunza (colet)
+		//3. ex2/1. Fiecare colet are o greutate, fiecare structura are o greutate si sa se calculeze greutatea totala a oricarui nod;
+		//3. ex2/2. Fiecare colet are un flag daca esteFragil sau nu. Iar, o structura se considera fragila daca contine cel putin un colet fragil
 	}
 
 }

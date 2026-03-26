@@ -2,6 +2,7 @@ package DP.Structurale.Flyweight;
 
 //zona ne-partajabila, zona unshared, zona extrinseca
 public class Bon{
+	//Bon este starea temporara din diagrama GoF
 	private int nrMasa;
 	private float costTotal;
 	

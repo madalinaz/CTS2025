@@ -5,8 +5,9 @@ import java.util.ArrayList;
 
 
 public class Structura extends ANod{
-	ArrayList<ANod> structura = new ArrayList<>();
-	String numeStructura;//eticheta
+	//Nod non-frunza / Composite din Diagrama GoF
+	private ArrayList<ANod> structura = new ArrayList<>();
+	private String numeStructura;//eticheta
 	
 	public Structura(String numeStructura){
 		this.numeStructura = numeStructura;
@@ -21,7 +22,8 @@ public class Structura extends ANod{
 	public int getPret() {
 		throw new UnsupportedOperationException();
 	}
-	
+
+	//implementare recursiva care permite afisarea label-ului curent + cere afisare pentru fiecare nod fiu
 	@Override
 	public String getInfo(){
 		String info = "";

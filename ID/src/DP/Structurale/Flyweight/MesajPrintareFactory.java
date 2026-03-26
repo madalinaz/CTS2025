@@ -12,6 +12,7 @@ public class MesajPrintareFactory {
 			new HashMap<>();
 	private static int nrBonuriPrintate=0;
 
+	//implementare de tip Late initialization (la cerere)
 	//meth getObiectFlyweight din diagrama
 	public static IPrintare getMesajPrintare(ETipPrintare tipPrintare) {
 		//versiunea curenta este de tip late initialization

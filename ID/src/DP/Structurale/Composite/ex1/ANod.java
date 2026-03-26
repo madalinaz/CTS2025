@@ -6,12 +6,12 @@ public abstract class ANod {
 	public abstract String getDenumire();
 	public abstract int getPret();
 	
-	//pentru toate nodurile
+	//pentru toate nodurile -> implementare concreta pe nod frunza
 	public String getInfo(){
 		return this.getDenumire() + " " + this.getPret();
 	}
 	
-	//metode specifice nodurilor structura
+	//metode specifice nodurilor structura ->implementare convenabila pentru nod frunza
 	public void adaugaNod(ANod elemStructura){
 		throw new UnsupportedOperationException();
 	}
